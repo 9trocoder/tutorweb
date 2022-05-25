@@ -48,6 +48,7 @@ function App() {
             />
           </rect>
         </svg>
+        <h1 style={{display: "none"}}>{}</h1>
         <p>Coming soon...</p>
       </header>
     </div>
