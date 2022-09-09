@@ -121,6 +121,10 @@
         margin-bottom: 1rem;
     }
 
+    .hompage__header-cnt {
+        width: 250px;
+    }
+
     .hompage__skils-text {
         font-size: 20px;
         line-height: 24px;
