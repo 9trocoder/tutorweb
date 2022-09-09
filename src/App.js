@@ -1,57 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import "./App.css";
+import Homepage from "./pages/Hompage";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <svg
-          version="1.1"
-          id="Layer_1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-          x="0px"
-          y="0px"
-          width="24px"
-          height="30px"
-          viewBox="0 0 24 30"
-          enable-background="new 0 0 50 50;"
-          xmlSpace="preserve"
-        >
-          <rect x="0" y="0" width="4" height="20" fill="#333">
-            <animate
-              attributeName="opacity"
-              attributeType="XML"
-              values="1; .2; 1"
-              begin="0s"
-              dur="0.6s"
-              repeatCount="indefinite"
-            />
-          </rect>
-          <rect x="7" y="0" width="4" height="20" fill="#333">
-            <animate
-              attributeName="opacity"
-              attributeType="XML"
-              values="1; .2; 1"
-              begin="0.2s"
-              dur="0.6s"
-              repeatCount="indefinite"
-            />
-          </rect>
-          <rect x="14" y="0" width="4" height="20" fill="#333">
-            <animate
-              attributeName="opacity"
-              attributeType="XML"
-              values="1; .2; 1"
-              begin="0.4s"
-              dur="0.6s"
-              repeatCount="indefinite"
-            />
-          </rect>
-        </svg>
-        <h1 style={{display: "none"}}>Fullstack Development Intensive Course.</h1>
-        <p>Coming soon...</p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/skills" element={<Skills />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

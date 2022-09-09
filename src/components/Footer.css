@@ -1,0 +1,27 @@
+.footer__cnt {
+  max-width: 894px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__contant-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    height: 50px;
+    background-color: none;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    font-size: 14px;
+}
+
+.footer__instagram-link img{
+    width: 50px;
+}

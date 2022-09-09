@@ -1,0 +1,17 @@
+.skills__cnt {
+    max-width: 894px;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.hompage__skils-cntt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem 2rem;
+  }
+  
+  .hompage__skils-itemm {
+    width: 150px;
+  }

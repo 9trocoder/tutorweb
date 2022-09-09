@@ -1,0 +1,107 @@
+.hompage__header {
+  display: flex;
+  max-width: 894px;
+  margin: 0 auto;
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 3rem;
+}
+
+.hompage__header img {
+  width: 392px;
+  height: 261px !important;
+  object-fit: contain;
+}
+
+.hompage__header-cnt {
+  width: 392px;
+}
+
+.hompage__header-summary {
+  font-size: 37px;
+  font-weight: 700;
+
+  line-height: 41px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.hompage__header-summarytext {
+  font-size: 13px;
+  letter-spacing: 0.13px;
+  line-height: 19.5px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.hompage__skils {
+  max-width: 894px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 2rem;
+}
+
+.hompage__skils-text {
+  font-size: 24px;
+  color: #212121;
+  line-height: 44.2px;
+  margin-bottom: 2rem;
+}
+
+.hompage__skils-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem 2rem;
+}
+
+.hompage__skils-item {
+  width: 100px;
+}
+
+.homepage__education-cnt {
+  padding-top: 2rem;
+  max-width: 894px;
+  margin: 0 auto;
+  border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 2rem;
+}
+
+
+.homepage__edu-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.hpedit-left img {
+    width: 50px;
+    object-fit: contain;
+}
+
+
+.hpedit-right-name {
+    font-size: 18px;
+    font-weight: 700;
+    color:#212121;
+    margin-bottom: .5rem;
+}
+
+.hpedit-right-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: .2rem;
+
+}
+
+.hpedit-right-date {
+    font-size: 13px;
+  letter-spacing: 0.13px;
+  line-height: 19.5px;
+  text-align: left;
+}
