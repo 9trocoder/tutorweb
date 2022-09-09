@@ -146,4 +146,38 @@
     .hompage__skils-item {
         width: 90px;
     }
+
+    .homepage__edu-item {
+        display: flex;
+        gap: .5rem;
+        align-items: flex-start;
+        margin-bottom: 3rem;
+      }
+      
+      .hpedit-left img {
+          width: 30px;
+          object-fit: contain;
+      }
+      
+      
+      .hpedit-right-name {
+          font-size: 14px;
+          font-weight: 700;
+          color:#212121;
+          margin-bottom: .2rem;
+      }
+      
+      .hpedit-right-title {
+          font-size: 12px;
+          font-weight: 500;
+          margin-bottom: .2rem;
+      
+      }
+      
+      .hpedit-right-date {
+          font-size: 10px;
+        letter-spacing: 0.13px;
+        line-height: 19.5px;
+        text-align: left;
+      }
 }
