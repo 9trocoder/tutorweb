@@ -1,0 +1,26 @@
+.resume__cnt {
+    max-width: 894px;
+    margin: 0 auto;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.resume__image {
+    width: 100%;
+    object-fit: contain;
+}
+
+.resume__download {
+    border: 1px solid #000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
