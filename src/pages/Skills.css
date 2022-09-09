@@ -15,3 +15,13 @@
   .hompage__skils-itemm {
     width: 150px;
   }
+
+  @media screen and (max-width: 500px) {
+    .hompage__skils-cntt {
+        gap: 1rem 1rem;
+    }
+
+    .hompage__skils-itemm {
+        width: 90px;
+    }
+  }
