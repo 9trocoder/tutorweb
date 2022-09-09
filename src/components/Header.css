@@ -57,3 +57,13 @@
     color: #a8a8a8;
 }
 
+
+@media screen and (max-width: 500px) {
+    .link__container {
+        gap: 1rem;
+    }
+
+    .link__container-items {
+        font-size: 10px;
+    }
+}
