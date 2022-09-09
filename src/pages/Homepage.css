@@ -122,8 +122,17 @@
     }
 
     .hompage__header-cnt {
-        width: 250px;
+       max-width: 250px;
     }
+
+    .hompage__header-summary {
+        font-size: 24px;
+        font-weight: 700;
+      
+        line-height: 41px;
+        text-align: left;
+        margin-bottom: .2rem;
+      }
 
     .hompage__skils-text {
         font-size: 20px;
