@@ -20,7 +20,7 @@ function Header() {
           RESUME
         </Link>
         <Link to="/work-in-progress" className="link__container-items">
-          WORK IN PROGRESS
+          WORKS
         </Link>
       </div>
     </div>
