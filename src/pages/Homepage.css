@@ -105,3 +105,24 @@
   line-height: 19.5px;
   text-align: left;
 }
+
+@media screen and (max-width: 500px) {
+
+    .hompage__header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hompage__header img {
+        width: 100% !important;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+
+    .hompage__skils-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
